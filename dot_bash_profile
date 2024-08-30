@@ -1,0 +1,12 @@
+#
+# ~/.bash_profile
+#
+
+[[ -f ~/.bashrc ]] && . ~/.bashrc
+
+source /home/plinkr/.config/broot/launcher/bash/br
+
+
+# Added by Toolbox App
+export PATH="$PATH:/home/plinkr/.local/share/JetBrains/Toolbox/scripts"
+
