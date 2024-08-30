@@ -1,0 +1,56 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[default]]
+    foreground_color = "#00ff00"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+  [[plinkr]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 0:0
+      maximised = True
+      fullscreen = False
+      size = 1920, 1012
+      title = plinkr@plinkr-erazer:~/git/nautapy
+      last_active_term = 385d231c-434d-43f8-9ac4-cd067700dc2c
+      last_active_window = True
+    [[[child1]]]
+      type = HPaned
+      parent = child0
+      order = 0
+      position = 958
+      ratio = 0.5002610966057441
+    [[[terminal2]]]
+      type = Terminal
+      parent = child1
+      order = 0
+      profile = default
+      uuid = e278d5aa-f38d-43fe-8830-00e0163a5e2d
+    [[[child3]]]
+      type = VPaned
+      parent = child1
+      order = 1
+      position = 504
+      ratio = 0.5004965243296922
+    [[[terminal4]]]
+      type = Terminal
+      parent = child3
+      order = 0
+      profile = default
+      uuid = 385d231c-434d-43f8-9ac4-cd067700dc2c
+    [[[terminal5]]]
+      type = Terminal
+      parent = child3
+      order = 1
+      profile = default
+      uuid = dced2809-8e29-45be-b11a-da6503b5c0b8
+[plugins]
