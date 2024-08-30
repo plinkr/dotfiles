@@ -1,0 +1,61 @@
+[colors.bright]
+black = "#2e3436"
+blue = "#729fcf"
+cyan = "#34e2e2"
+green = "#8ae234"
+magenta = "#ad7fa8"
+red = "#ef2929"
+white = "#eeeeec"
+yellow = "#fce94f"
+
+[colors.normal]
+black = "#2e3436"
+blue = "#3465a4"
+cyan = "#06989a"
+green = "#73d216"
+magenta = "#75507b"
+red = "#cc0000"
+white = "#d3d7cf"
+yellow = "#edd400"
+
+[colors.primary]
+background = "#000000"
+foreground = "#00ff00"
+
+[cursor]
+blink_interval = 700
+
+[cursor.style]
+blinking = "Always"
+shape = "Block"
+
+[font]
+size = 11.0
+
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrains Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Italic"
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Control|Shift"
+
+[window]
+dynamic_title = true
+
+[window.dimensions]
+columns = 115
+lines = 35
